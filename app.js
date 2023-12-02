@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 
 app.get("/", (req, res) => {
 
-  res.send("hello");
+  res.redirect("http://127.0.0.1:8080/")
 
 })
 
